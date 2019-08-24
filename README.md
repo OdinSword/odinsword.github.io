@@ -11,7 +11,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# About Myself
+# Hey there, I am Mayur Khandelwal, Final Year Bachelors in Civil Engineering at Indian Institute of Technology Roorkee.
 ## Header 2
 ### Header 3
 
