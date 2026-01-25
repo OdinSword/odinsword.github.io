@@ -442,7 +442,16 @@ article.active {
   margin-top: 50px;
 }
 
-.service-title,
+.service-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--white);
+  margin-bottom: 30px;
+}
+
 .h3 {
   font-family: var(--ff-heading);
   font-size: var(--fs-2);
@@ -494,7 +503,16 @@ article.active {
   flex: 1;
 }
 
-.service-item-title,
+.service-item-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
 .h4 {
   font-family: var(--ff-heading);
   font-size: var(--fs-4);
@@ -781,22 +799,28 @@ article.active {
 \*-----------------------------------*/
 
 .timeline {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
-.title-wrapper {
+.timeline .title-wrapper {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 30px;
 }
 
-.title-wrapper .icon-box {
+.timeline .title-wrapper .icon-box {
   background: var(--hot-pink);
   font-size: 24px;
 }
 
-.title-wrapper .h3 {
+.timeline .title-wrapper .h3 {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--white);
   margin: 0;
 }
 
@@ -855,6 +879,10 @@ article.active {
   line-height: 1.6;
 }
 
+.h4.timeline-item-title {
+  color: var(--black);
+}
+
 /*-----------------------------------*\
   #SKILLS
 \*-----------------------------------*/
@@ -887,14 +915,14 @@ article.active {
   margin-bottom: 0;
 }
 
-.title-wrapper {
+.skills-item .title-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.title-wrapper .h5 {
+.skills-item .title-wrapper .h5 {
   font-family: var(--ff-heading);
   font-size: var(--fs-5);
   font-weight: var(--fw-700);
@@ -903,7 +931,7 @@ article.active {
   color: var(--black);
 }
 
-.title-wrapper data {
+.skills-item .title-wrapper data {
   color: var(--hot-pink);
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
